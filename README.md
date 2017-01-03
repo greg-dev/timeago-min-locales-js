@@ -4,8 +4,8 @@ It is just an attempt to make the `timeago.locales.min.js` file from the [hustcc
 even smaller by refactoring current locale files.
 
 ## Setup
-1. Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
-2. Download and unpack both projects
+* Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
+* Download and unpack both projects
 
 using git:
 ```
@@ -22,8 +22,7 @@ unzip master.zip;
 mv timeago.locales.min.js-master timeago.locales.min.js;
 rm master.zip;
 ```
-
-2. Install dependencies, build original minified files:
+* Install dependencies, build original minified files:
 ```
 cd timeago.js
 npm install
@@ -33,8 +32,7 @@ cd ..
 cd timeago-min-locales-js
 npm install
 ```
-
-3. Copy all the source and locale files needed to build a new minified version:
+* Copy all the source and locale files needed to build a new minified version:
 ```
 cp -R ../timeago.js/src/* ./src/
 cp -R ../timeago.js/dist/* ./dist/*
@@ -44,7 +42,7 @@ cp ../timeago.js/webpack.config.js ./
 ```
 
 ## Running
-1. To build a new minified locales file go to the timeago.locales.min-orig.js directory
+* To build a new minified locales file go to the timeago.locales.min-orig.js directory
 and run the command:
 ```
 npm run mini-build
