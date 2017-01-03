@@ -4,6 +4,7 @@
   "description": "An attempt to reduce size of timeago.locales.min.js file from hustcc/timeago.js project",
   "main": "dist/timeago.min.js",
   "scripts": {
+    "mini-regression-tests": "node tests/mini_regression_tests.js",
     "mini-build": "cp locales_orig/*.js locales/; cp locales_mini/*.js locales/; webpack; rm locales/*.js;"
   },
   "repository": {
@@ -13,6 +14,8 @@
   "author": "Greg Dev",
   "license": "MIT",
   "devDependencies": {
+    "pys": "^1.0.3",
+    "tape": "^4.6.3",
     "webpack": "^1.14.0"
   },
   "jshintConfig": {
