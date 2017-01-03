@@ -45,8 +45,13 @@ cp ../timeago.js/webpack.config.js ./
 ```
 
 ## Running
-* To build a new minified locales file go to the timeago.locales.min-orig.js directory
+* To build a new minified locales file go to the timeago.locales.min.js directory
 and run the command:
 ```
 npm run mini-build
+```
+
+* To make sure that new locales give the same output as the old ones use:
+```
+npm run mini-regression-tests
 ```
