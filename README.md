@@ -3,6 +3,9 @@
 It is just an attempt to make the `timeago.locales.min.js` file from the [hustcc/timeago.js](https://github.com/hustcc/timeago.js.git) project
 even smaller by refactoring current locale files.
 
+## Credits
+https://github.com/hustcc/timeago.js/graphs/contributors
+
 ## Setup
 * Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
 * Download and unpack both projects
