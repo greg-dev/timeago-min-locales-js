@@ -55,3 +55,8 @@ npm run mini-build
 ```
 npm run mini-regression-tests
 ```
+
+* To compare the speed of new and old locales run:
+```
+npm run mini-performance-tests
+```

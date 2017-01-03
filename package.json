@@ -5,6 +5,7 @@
   "main": "dist/timeago.min.js",
   "scripts": {
     "mini-regression-tests": "node tests/mini_regression_tests.js",
+    "mini-performance-tests": "node tests/mini_performance_tests.js",
     "mini-build": "cp locales_orig/*.js locales/; cp locales_mini/*.js locales/; webpack; rm locales/*.js;"
   },
   "repository": {
