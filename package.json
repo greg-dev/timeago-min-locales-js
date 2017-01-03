@@ -1,0 +1,14 @@
+{
+  "name": "timeago.locales.min.js",
+  "version": "1.0.0",
+  "description": "An attempt to reduce size of timeago.locales.min.js file from hustcc/timeago.js project",
+  "main": "dist/timeago.min.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greg-dev/timeago.locales.min.js.git"
+  },
+  "author": "Greg Dev",
+  "license": "MIT"
+}
