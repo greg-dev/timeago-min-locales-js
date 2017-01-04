@@ -3,6 +3,15 @@
 It is just an attempt to make the `timeago.locales.min.js` file from the [hustcc/timeago.js](https://github.com/hustcc/timeago.js.git) project
 even smaller by refactoring current locale files.
 
+## Progress
+Refactored files (<!-- replace:miniFilesNum -->?<!-- end:replace:miniFilesNum -->): <!-- replace:miniFiles -->?<!-- end:replace:miniFiles -->
+
+Files to refactor (<!-- replace:todoFilesNum -->?<!-- end:replace:todoFilesNum -->): <!-- replace:todoFiles -->?<!-- end:replace:todoFiles -->
+
+Minified size after refactoring: <!-- replace:miniBytes -->?<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->?<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->?<!-- end:replace:origBytes --> bytes)
+
+Saved: <!-- replace:diffBytes -->?<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->?<!-- end:replace:savedPercent -->%)
+
 ## Credits
 https://github.com/hustcc/timeago.js/graphs/contributors
 
