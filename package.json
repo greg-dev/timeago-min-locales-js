@@ -4,9 +4,12 @@
   "description": "An attempt to reduce size of timeago.locales.min.js file from hustcc/timeago.js project",
   "main": "dist/timeago.min.js",
   "scripts": {
+    "mini-copy": "cp ../timeago.js/locales/*.js ./locales_orig/; cp ../timeago.js/dist/timeago.locales.min.js ./dist/timeago.locales.min-orig.js; cd ../timeago.locales.min.js;",
+    "mini-update": "cd ../timeago.js; git pull; webpack; gulp mini; cd ../timeago.locales.min.js; npm run mini-copy;",
     "mini-regression-tests": "node tests/mini_regression_tests.js",
     "mini-performance-tests": "node tests/mini_performance_tests.js",
-    "mini-build": "cp locales_orig/*.js locales/; cp locales_mini/*.js locales/; webpack; rm locales/*.js;"
+    "mini-build": "cp locales_orig/*.js locales/; cp locales_mini/*.js locales/; webpack; rm locales/*.js;",
+    "mini": "npm run mini-update; npm run mini-build; npm run mini-regression-tests; npm run mini-performance-tests; gulp progress;"
   },
   "repository": {
     "type": "git",
