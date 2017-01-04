@@ -12,9 +12,6 @@ even smaller by refactoring current locale files.
 
 * Saved: <!-- replace:diffBytes -->442<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->1.63<!-- end:replace:savedPercent -->%)
 
-## Credits
-https://github.com/hustcc/timeago.js/graphs/contributors
-
 ## Setup
 * Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
 * Download and unpack both projects
@@ -69,3 +66,6 @@ npm run mini-regression-tests
 ```
 npm run mini-performance-tests
 ```
+
+## Credits
+https://github.com/hustcc/timeago.js/graphs/contributors
