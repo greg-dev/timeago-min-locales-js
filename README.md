@@ -4,13 +4,13 @@ It is just an attempt to make the `timeago.locales.min.js` file from the [hustcc
 even smaller by refactoring current locale files.
 
 ## Progress
-* Refactored files (<!-- replace:miniFilesNum -->13<!-- end:replace:miniFilesNum -->): <!-- replace:miniFiles -->bg, ca, da, de, el, en_short, in_ID, ml, pl, ro, ru, th, tr<!-- end:replace:miniFiles -->
+* Refactored files (<!-- replace:miniFilesNum -->14<!-- end:replace:miniFilesNum -->): <!-- replace:miniFiles -->bg, ca, da, de, el, en_short, hu, in_ID, ml, pl, ro, ru, th, tr<!-- end:replace:miniFiles -->
 
-* Files to refactor (<!-- replace:todoFilesNum -->24<!-- end:replace:todoFilesNum -->): <!-- replace:todoFiles -->ar, be, en, es, eu, fi, fr, he, hu, in_BG, in_HI, it, ja, ko, nb_NO, nl, nn_NO, pt_BR, sv, ta, uk, vi, zh_CN, zh_TW<!-- end:replace:todoFiles -->
+* Files to refactor (<!-- replace:todoFilesNum -->23<!-- end:replace:todoFilesNum -->): <!-- replace:todoFiles -->ar, be, en, es, eu, fi, fr, he, in_BG, in_HI, it, ja, ko, nb_NO, nl, nn_NO, pt_BR, sv, ta, uk, vi, zh_CN, zh_TW<!-- end:replace:todoFiles -->
 
-* Minified size after refactoring: <!-- replace:miniBytes -->22582<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->83.24<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->27129<!-- end:replace:origBytes --> bytes)
+* Minified size after refactoring: <!-- replace:miniBytes -->22405<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->82.59<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->27129<!-- end:replace:origBytes --> bytes)
 
-* Saved: <!-- replace:diffBytes -->4547<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->16.76<!-- end:replace:savedPercent -->%)
+* Saved: <!-- replace:diffBytes -->4724<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->17.41<!-- end:replace:savedPercent -->%)
 
 ## Setup
 * Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
