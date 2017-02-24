@@ -38,7 +38,7 @@ npm install
 gulp mini
 webpack
 cd ..
-cd timeago.min.locales.js
+cd timeago.locales.min.js
 npm install
 ```
 * Copy all the source and locale files needed to build a new minified version:
