@@ -8,9 +8,9 @@ even smaller by refactoring current locale files.
 
 * Files to refactor (<!-- replace:todoFilesNum -->3<!-- end:replace:todoFilesNum -->): <!-- replace:todoFiles -->ar, be, uk<!-- end:replace:todoFiles -->
 
-* Minified size after refactoring: <!-- replace:miniBytes -->18564<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->64.16<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->28935<!-- end:replace:origBytes --> bytes)
+* Minified size after refactoring: <!-- replace:miniBytes -->18105<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->62.57<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->28935<!-- end:replace:origBytes --> bytes)
 
-* Saved: <!-- replace:diffBytes -->10371<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->35.84<!-- end:replace:savedPercent -->%)
+* Saved: <!-- replace:diffBytes -->10830<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->37.43<!-- end:replace:savedPercent -->%)
 
 ## Setup
 * Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
