@@ -6,11 +6,11 @@ even smaller by refactoring current locale files.
 ## Progress
 * Refactored files (<!-- replace:miniFilesNum -->37<!-- end:replace:miniFilesNum -->): <!-- replace:miniFiles -->bg, ca, da, de, el, en, en_short, es, eu, fa, fi, fr, gl, he, hu, in_BG, in_HI, in_ID, it, ja, ko, ml, my, nb_NO, nl, nn_NO, pl, pt_BR, ro, ru, sv, ta, th, tr, vi, zh_CN, zh_TW<!-- end:replace:miniFiles -->
 
-* Files to refactor (<!-- replace:todoFilesNum -->3<!-- end:replace:todoFilesNum -->): <!-- replace:todoFiles -->ar, be, uk<!-- end:replace:todoFiles -->
+* Files to refactor (<!-- replace:todoFilesNum -->5<!-- end:replace:todoFilesNum -->): <!-- replace:todoFiles -->ar, be, sq, sr, uk<!-- end:replace:todoFiles -->
 
-* Minified size after refactoring: <!-- replace:miniBytes -->18422<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->62.57<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->29443<!-- end:replace:origBytes --> bytes)
+* Minified size after refactoring: <!-- replace:miniBytes -->20187<!-- end:replace:miniBytes --> bytes (<!-- replace:diffPercent -->64.69<!-- end:replace:diffPercent -->% of original <!-- replace:origBytes -->31208<!-- end:replace:origBytes --> bytes)
 
-* Saved: <!-- replace:diffBytes -->11021<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->37.43<!-- end:replace:savedPercent -->%)
+* Saved: <!-- replace:diffBytes -->11021<!-- end:replace:diffBytes --> bytes (<!-- replace:savedPercent -->35.31<!-- end:replace:savedPercent -->%)
 
 ## Setup
 * Install [Node.js](https://nodejs.org/en/download/) (tested on `6.9.x`).
